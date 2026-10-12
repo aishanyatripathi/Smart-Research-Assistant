@@ -1,0 +1,576 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Aishanya Tripathi",
+      "email": "aishanya@rgit.edu",
+      "role": "Lead Researcher & AI Engineer"
+    }
+  ],
+  "notebooks": [
+    {
+      "id": "nb-1",
+      "title": "Smart Research & Study Assistant",
+      "description": "NotebookLM-inspired RAG companion with active recall, flashcards, quizzes & Socratic tutor.",
+      "category": "Computer Science & AI",
+      "updatedAt": "2026-08-20T18:23:18.231Z",
+      "sourcesCount": 2
+    },
+    {
+      "id": "nb-2",
+      "title": "Deep Learning & Neural Networks",
+      "description": "Convolutional neural networks, U-Net architecture, image segmentation & loss functions.",
+      "category": "Machine Learning",
+      "updatedAt": "2026-08-20T18:14:42.691Z",
+      "sourcesCount": 1
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-1787250188344",
+      "createdAt": "2026-08-20T18:23:08.344Z",
+      "active": true,
+      "notebookId": "nb-1",
+      "title": "Smart Research & Study Assistant(ppt).pdf",
+      "type": "pdf",
+      "content": "\n\nIT DEPARTMENT\nINTERNSHIP PRESENTATION\nON\nSmart Research & Study Assistant\n                                                                       PRESENTED BY-\n                                                                                              1. Aishanya Tripathi(2300330130008)\n                                                                                                        2. Himanshu Gupta(2300330130030)                 \n                                                                                                       3. Krishna Murari Mishra(2300330130034)\n                                                                                            4. Abhishek Kumar(2300330130006)\n                         \n\nAGENDA\nWhat\tWe'll\tCover\n01\nIntroduction\nAbout the project and the problem it solves\n02\nObjective\nWhat the assistant is designed to achieve\n03\nKey Skills\nThe technologies and techniques behind it\n04\nRoles & Responsibilities\nHow the team divided the work\n05\nConclusion\nWhat we built and what's next\n02\n\nI N T R O D U C T I O N\nAbout\tthe\tProject\nSmart Research & Study Assistant is an AI-powered study companion\ninspired by Google's NotebookLM. Learners upload their own material —\ntextbooks, lecture notes, research papers — and interact with it\nconversationally instead of searching through pages manually.\nAt its core is a Retrieval-Augmented Generation (RAG) pipeline: every\nanswer is grounded in the uploaded content and returned with citations,\nso learners get source-backed answers instead of generic ones — turning\nstatic documents into an interactive, personal knowledge base.\n1\nUpload\nAdd PDFs, notes & sources\n2\nRetrieve\nRAG finds the relevant passages\n3\nConverse\nChat, quiz & review with citations\n03\n\nO B J E C T I V E\nWhat\tthe\tAssistant\tAims\tto\tDeliver\n1\nMulti-format ingestion\nLet users upload and organize study material — PDFs, notes\nand documents — into notebooks.\n2\nGrounded, cited answers\nUse a RAG pipeline so every response is backed by the source\nmaterial, not guesswork.\n3\nActive-recall learning tools\nTurn content into AI chat, auto-generated quizzes and spaced-\nrepetition flashcards.\n4\nSecure, scalable access\nProtect notebooks with JWT and Google OAuth, backed by a\nproduction-ready deployment.\n04\n5\nCollaborative study rooms\nMultiple students share a notebook, chat threads, and\nflashcard decks in real time\n6\nSocratic/debate tutor mode\nInstead of just answering questions, the AI asks probing follow-\nup questions to test understanding\n\nK E Y   S K I L L S\nTechnologies\tBehind\tthe\tBuild\nFrontend\nReactViteTypeScript\nTailwind CSSshadcn/ui\nBackend & Auth\nFastAPIJWTGoogle OAuth\nAI / RAG Pipeline\nLangChainGemini API\nSentence Transformers\nData & Storage\nPostgreSQL\nChromaDB (vector store)\n05\n\nT E A M\nRoles\t&\tResponsibilities\nAT\nAishanya Tripathi\nHG\nHimanshu Gupta\nBackend Development\nFastAPI services and REST APIs\nJWT & Google OAuth integration\nBuilt the React + Vite + Tailwind UI\nNotebook, chat and upload screens\nFrontend Development\nKM\nKrishna Murari Mishra\nAI / RAG Pipeline\nLangChain retrieval pipeline\nEmbeddings with Sentence Transformers\nAK\nAbhishek Kumar\nData & Deployment\nPostgreSQL schema & ChromaDB store\nTesting and deployment setup\n06\n\nCONCLUSION\nFrom\tStatic\tNotes\tto\tan\nActive\tLearning\tPartner\nThe Smart Research & Study Assistant brings together full-stack engineering and modern RAG\ntechniques to turn any set of documents into an interactive, source-grounded study companion.\nBuilding it gave the team hands-on experience across frontend, backend, AI pipelines and\ndeployment — and a working foundation to extend with voice interaction and AI-generated\npodcast summaries next.\nRAG-grounded answersFull-stack buildQuizzes & flashcardsTeam of 4\n07\n\nThank\tYou\nQuestions & Discussion\nAishanya Tripathi   ·   Himanshu Gupta   ·   Krishna Murari Mishra   ·   Abhishek Kumar\n08",
+      "chunkCount": 10
+    },
+    {
+      "id": "src-1787250198231",
+      "createdAt": "2026-08-20T18:23:18.231Z",
+      "active": true,
+      "notebookId": "nb-1",
+      "title": "Project_Synopsis.pdf",
+      "type": "pdf",
+      "content": "\n\nSynopsis \n \nAgentMed-Neuro:A Multimodal Agentic System for Evidence-Based \nDiagnosis and Insights in Neuroscience \n  \n Report submitted in partial fulfillment of the requirement for the degree of \n      \n \n   \nB.Tech. \nIn  \n  INFORMATION TECHNOLOGY \n \nUnder the Supervision of \n \nMs Priya Rana \nBy \nAvantika Kashyap(2200330130012) \nAnchal Patel(2300330139001) \nAvni Singh (2200330130014) \n MD. Aman(2200330130029) \n \n \nRaj Kumar Goel Institute of Technology, Ghaziabad  \nDr. APJ Abdul Kalam Technical University, \nLucknow \n  \n2025-2026 \n  \n\n \nTABLEOFCONTENTS \n \n  \n \nS. NO. TOPICS PAGE NO. \n1 \nOBJECTIVE AND SUBOBJECTIVE \n3-3 \n2 ABSTRACT 3-4 \n3 INTRODUCTION 4-5 \n4 LITERATURE REVIEW 5-6 \n5 METHODOLOGY 6-7 \n6 \nRESOURCES[H/W,S/W] \n7-8 \n7 \nPROJECT PLANNING (SCHEDULING) \n8-9 \n8 \nREFERENCES \n9-10 \n\nOBJECTIVE \nThe objective of this project is to design and implement an automated system for \nAgentMed-Neuro: A Multimodal Agentic System for Evidence-Based Diagnosis and \nInsights in Neuroscience using Convolutional Neural Networks (CNN) and U-Net \narchitecture. The main goals are: \n1. To collect and preprocess MRI datasets to ensure high-quality input for accurate \ntumour detection and segmentation. \n2. To design a CNN-based model for extracting complex features from brain MRI \nimages. \n3. To  implement  a U-Net  architecture  for  precise  tumour  segmentation  and \nboundary detection. \n4. To classify brain tumours into categories such as benign and malignant, aiding \nclinical decision-making. \n5. To reduce diagnostic time and human error through automation of the analysis \nprocess. \n6. To achieve high performance metrics such as Dice Coefficient, Precision, Recall, \nand F1-Score for reliable results. \n7. To  develop  a user-friendly  interface  for  visualizing  segmented  images  and \ngenerating diagnostic reports. \n8. To  create  a scalable  and  cost-effective  solution  suitable  for  hospitals  and \ndiagnostic centres, even in resource-limited settings. \n \n \n \n \n \n \n \n \n \n \n \n \n\nABSTRACT \nBrain tumours are one of the most serious neurological disorders that require early and \naccurate detection for effective treatment. Manual diagnosis using MRI scans is time-\nconsuming and prone to human error. To address this challenge, Agent Med-Neuro is \ndesigned as a multimodal agentic system that leverages Convolutional Neural \nNetworks (CNN) and U-Net segmentation models to automatically detect and classify \nbrain tumours. \n \nEarly and accurate diagnosis of brain tumors is essential for improving patient \noutcomes and tailoring effective treatment plans. Magnetic Resonance Imaging (MRI) \nserves as a key tool for brain tumor detection, but challenges remain in precisely \nclassifying and segmenting tumors due to their complex structures and varying \nintensities. In this study, we present a novel deep learning framework that combines a \nConvolutional Neural Network (CNN) for automatic classification of brain MRI \nimages into multiple tumor categories with a U-Net-based model for detailed tumor \nsegmentation. By leveraging six benchmark datasets, we rigorously evaluated the \nclassification and segmentation performance, demonstrating that integrating \nsegmentation significantly enhances classification accuracy. Our approach achieved \noutstanding results, with classification accuracy reaching up to 98.8% when combined \nwith segmentation, outperforming existing pre-trained models. \n \nOur approach achieved outstanding results, with classification accuracy reaching up to \n98.8% when combined with segmentation, outperforming existing pre-trained models. \nAdditionally, the segmentation model, enhanced with advanced techniques to preserve \ncritical tumor features, showed superior precision in delineating tumor boundaries. \nThis integrated CNN and U-Net framework offers a powerful, efficient, and clinically \napplicable solution for the automatic identification and segmentation of brain tumors \nfrom MRI scans, potentially aiding radiologists in diagnosis and personalized \ntreatment planning. \n \n \n \n \n \n \n \n \n \n \n                                            \n \n \n \n \n \n\n                                              INTRODUCTION \nBrain tumours are abnormal growths of cells in the brain that can disrupt normal brain \nfunctions and lead to life-threatening conditions. According to the World Health \nOrganization (WHO), millions of people are diagnosed with brain tumours each year. \nEarly detection plays a critical role in effective treatment and survival rates. \nTraditional diagnosis involves manual examination of MRI images by radiologists, \nwhich is a time-consuming process and prone to human error. Recent advancements in \nArtificial Intelligence (AI) and Deep Learning (DL) have enabled the automation of \nmedical imaging tasks. \n \nAgented-Neuro integrates CNN and U-Net deep learning architectures to provide an \nintelligent, automated, and reliable solution for brain tumour detection and \nsegmentation. The system not only identifies the presence of a tumour but also \nprovides visual evidence for decision-making, thus supporting doctors and researchers. \nBrain tumours are abnormal growths of cells in the brain that can disrupt normal brain \nfunctions and lead to life-threatening conditions. According to the World Health \nOrganization (WHO), millions of people are diagnosed with brain tumours each year. \nEarly detection plays a critical role in effective treatment and survival rates. \nTraditional diagnosis involves manual examination of MRI images by radiologists, \nwhich is a time-consuming process and prone to human error. Recent advancements in \nArtificial Intelligence (AI) and Deep Learning (DL) have enabled the automation of \nmedical imaging tasks. \n \nAgented-Neuro integrates CNN and U-Net deep learning architectures to provide an \nintelligent, automated, and reliable solution for brain tumour detection and \nsegmentation. The system not only identifies the presence of a tumour but also \nprovides visual evidence for decision-making, thus supporting doctors and researchers. \n Precisely segments tumour boundaries, providing clear visualization for \ntreatment planning. \n Reduces diagnostic time and assists radiologists with evidence-based insights. \n Enhances accuracy and consistency, minimizing variability between different \nhuman evaluators. \n Offers a scalable, cost-effective tool that can be deployed in hospitals, clinics, \nand research institutions. \n Supports decision-making by classifying tumour types (benign or malignant). \n \n \n \n \n \n \n \n \n \n\nLITERATURE REVIEW \n \n1. Deep Learning in Medical Imaging – Ranneberger et al. introduced U-Net, \nwhich has become the state-of-the-art for biomedical image segmentation. \n2. Brain Tumour Segmentation with CNNs – Pereira et al. demonstrated the \neffectiveness of CNNs in MRI-based tumour detection with high accuracy. \n3. Hybrid Models for Diagnosis – Recent studies combine CNN and U-Net for \nbetter performance in both classification and segmentation tasks. \n4. Challenges Identified – Limited datasets, noise in MRI scans, and \ncomputational costs are common challenges in brain tumour detection research. \n \nThese studies highlight the importance of integrating robust deep learning models like \nCNN and U-Net to achieve accurate and reliable medical imaging solutions. \nR. B. Dubey et al. (2011) employed classical segmentation techniques such as \nMGMRGT, Level Set, and Marker Controlled Watershed to measure the tumour \narea from MRI slices. Their study focused purely on segmentation, not classification. \nWhile MGMRGT showed an area error between 6–23% compared to manual \nmeasurements, the approach was limited by a very small dataset of only nine expert-\nlabelled MRI slices and did not provide any classification of tumour type [1]. \n \nHamza R. AL Madhoun and S. S. Abu Naser (2022) introduced a deep learning-\nbased approach using CNN, VGG16, ResNet50, InceptionV3, and Mobile Net for \nclassification tasks. Among these, InceptionV3 achieved the highest test accuracy of \n99%, while Mobile Net underperformed with 88.9%. Their study used a Kaggle \ndataset containing 10,000 images. However, the performance was highly dependent on \nthe availability of large annotated datasets, and reduced accuracy was noted when \nlimited data were available [2]. \n \nVeeramuthu et al. (2022) proposed a Hybrid Combined Feature and Image-based \nClassifier (CFIC) that integrates DNN, CNN, and wavelet/intensity features. This \nensemble model achieved 98.97% accuracy, 98.86% sensitivity, and 97.14% \nspecificity on the Kaggle Brain Tumour Detection 2020 dataset. The primary \ndrawback was the complexity of training and dependency on the segmentation stage \nfor accurate results [3]. \n \n                                       \n \n \n \n \n \n \n \n \n\n \nMETHODOLOGY \nStepwise Workflow: \n1. Data Collection: Acquire brain MRI datasets from publicly available sources \nsuch as BRATS or Kaggle. \n2. Preprocessing: Resize images, normalize pixel intensity, and perform noise \nreduction. \n3. Feature Extraction (CNN): \no CNN layers automatically extract important features like texture, edges, \nand intensity variations. \n4. Segmentation (U-Net): \no U-Net identifies tumour boundaries and segments affected regions \nprecisely. \n5. Classification: Tumour type classification as benign or malignant. \n6. Evaluation Metrics: Accuracy, Dice Score, and Intersection over Union (IoU). \n7. Deployment: Create a user-friendly interface for radiologists to upload MRI \nscans and view tumour insights. \n \n \n \n \n                                                \n \n \n \n\nRESOURCES \n \nHARDWARE \n CPU: Intel i5 or above \n GPU: NVIDIA RTX Series (4GB+ VRAM) \n RAM: 16GB minimum \n Storage: 512GB SSD \n \n \n \nSOFTWARE \n \n Programming Language: Python 3.10+ \n Libraries: TensorFlow, Kera’s, OpenCV, NumPy, Pandas, Matplotlib \n Development Tools: Jupyter Notebook, VS Code \n Dataset: BRATS Dataset or equivalent MRI dataset   Other \n \n \nOTHER \n GitHub for version control \n Docker for model deployment \n Cloud platforms like AWS or Google Collab for training \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\nPROJECT PLANNING \n(SCHEDULING) \n \n \nPhase Tasks Duration \nPhase 1 Research & Dataset Collection 2 Weeks \nPhase 2 Data Preprocessing & Augmentation 2 Weeks \nPhase 3 CNN Model Development 3 Weeks \nPhase 4 U-Net Segmentation Implementation 3 Weeks \nPhase 5 Integration & Testing 2 Weeks \nPhase 6 Deployment & Documentation 2 Weeks \n   \nTotal Duration 14 Weeks (Approx.) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n                                             REFERENCES \n1. R. B. Dubey, M. Hanmandlu, and S. Vasikarla, “Evaluation of three \nmethods for MRI brain tumor segmentation,” IEEE Transactions on \nMedical Imaging, vol. 30, no. 9, pp. 1769–1776, 2011. \n2. H. R. Almadhoun and S. S. Abu Naser, “Brain tumour classification \nusing deep learning algorithms,” International Journal of Academic \nInformation Systems Research, vol. 6, no. 5, pp. 45–53, 2022. \n3. A. Veeramuthu, S. Meenakshi, G. Mathivanan, K. Kotecha, J. R. \nSaini, V. Vijayakumar, and V. Subramaniyaswamy, “An ensemble \nhybrid approach for brain tumour detection and classification,” \nScientific Reports, vol. 12, pp. 3456–3464, 2022. \n4. C. L. Choudhury, C. Mahanty, R. Kumar, and B. K. Mishra, “A \ncustom convolutional neural network for brain tumour classification,” \nJournal of Ambient Intelligence and Humanized Computing, vol. 11, \npp. 453–461, 2020. \n5. L. Szilágyi et al., “Brain tumour segmentation using multi-stage fuzzy \nc-means clustering,” International Journal of Computer Assisted \nRadiology and Surgery, vol. 10, no. 4, pp. 439–445, 2015. \n6. S. Sajid, et al., “Glioma segmentation using a patch-based hybrid \nCNN approach,” Computer Methods and Programs in Biomedicine, \nvol. 178, pp. 121–133, 2019. \n7. S. Ahuja, et al., “Brain tumour detection using transfer learning and \nsuper pixel segmentation,” IEEE Access, vol. 8, pp. 12345–12357, \n2020. \n8. M. Obayya, et al., “Improved U-Net architecture for brain tumour \nsegmentation,” Journal of Medical Systems, vol. 49, pp. 345–354, \n2025. \n9. A. Raza, et al., “Deep TumorNet: A hybrid deep learning model for \nbrain tumour classification,” Neurocomputing, vol. 467, pp. 137–147, \n2022. \n10. S. Pereira, A. Pinto, V. Alves, and C. Silva, \"Brain Tumour \nSegmentation Using Convolutional Neural Networks in MRI Images,\" \nIEEE Transactions on Medical Imaging, vol. 35, no. 5, pp. 1240-1251, \nMay 2016. \n \n \n ",
+      "chunkCount": 31
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat-1",
+      "notebookId": "nb-1",
+      "sender": "ai",
+      "text": "Hello! I am your **Smart Research & Study Assistant**. I have processed your uploaded materials. You can ask me questions, toggle Socratic Tutor mode, generate quizzes, or review flashcards!",
+      "citations": [],
+      "timestamp": "2026-08-20T18:14:42.691Z"
+    },
+    {
+      "id": "chat-1787249965847",
+      "timestamp": "2026-08-20T18:19:25.847Z",
+      "notebookId": "nb-1",
+      "sender": "user",
+      "text": "expalin what is in this doc"
+    },
+    {
+      "id": "chat-1787249965851",
+      "timestamp": "2026-08-20T18:19:25.851Z",
+      "notebookId": "nb-1",
+      "sender": "ai",
+      "text": "Based on your uploaded study materials, here is the grounded synthesis:\n\n### Key Insight 1: Smart_Research_Assistant_Project_Overview.pdf\nSmart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lecture notes, research papers — and interact with it conversationally instead of searching through pages manually. At its core is a Retrieval-Augmented Generation (RAG) pipeline: every answer is grounded in the uploaded content and returned with citations, so learners get source-backed answers instead of generic ones — turning static documents into an interactive, personal knowledge base.\n*Citation: [Smart_Research_Assistant_Project_Overview.pdf, Chunk 1]*\n\n### Key Insight 2: Smart_Research_Assistant_Project_Overview.pdf\ns instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format ingestion: Let users upload and organize study material (PDFs, notes, documents) into notebooks.\n2. Grounded, cited answers: Use a RAG pipeline so every response is backed by the source material, not guesswork.\n3. Active-recall learning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4.\n*Citation: [Smart_Research_Assistant_Project_Overview.pdf, Chunk 2]*\n\n### Key Insight 3: Smart_Research_Assistant_Project_Overview.pdf\nning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4. Secure, scalable access: Protect notebooks with JWT and OAuth, backed by a production-ready stack.\n5. Collaborative study rooms: Multiple students share a notebook, chat threads, and flashcard decks in real time.\n6. Socratic / debate tutor mode: Instead of just answering questions, the AI asks probing follow-up questions to test understanding.\n*Citation: [Smart_Research_Assistant_Project_Overview.pdf, Chunk 3]*\n\n### Key Insight 4: RAG_Pipeline_Technical_Architecture.txt\nRetrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping chunks of 500 characters with 100 character overlap.\n2. Vector Indexing: Embeddings are calculated for each chunk and indexed into a vector store.\n3. Query Processing & Semantic Retrieval: User questions are tokenized and scored against stored chunk vectors using cosine similarity search. Top-K relevant contexts are fetched.\n4.\n*Citation: [RAG_Pipeline_Technical_Architecture.txt, Chunk 4]*\n\n---\n**Summary**: The sources highlight the core principles relevant to your inquiry: \"expalin what is in this doc\".",
+      "citations": [
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lec..."
+        },
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format inges..."
+        },
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4. Secure, scalable access: Protect notebooks with JW..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping..."
+        }
+      ],
+      "socraticMode": false
+    },
+    {
+      "id": "chat-1787249981306",
+      "timestamp": "2026-08-20T18:19:41.306Z",
+      "notebookId": "nb-1",
+      "sender": "user",
+      "text": "ask me questins "
+    },
+    {
+      "id": "chat-1787249981308",
+      "timestamp": "2026-08-20T18:19:41.308Z",
+      "notebookId": "nb-1",
+      "sender": "ai",
+      "text": "### 💡 Socratic Tutor Reflection\n\nBased on **Smart_Research_Assistant_Project_Overview.pdf**, let's analyze this step by step.\n\nHere is a key passage to consider:\n> \"Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lecture notes, research papers — and interact with it...\" [Smart_Research_Assistant_Project_Overview.pdf, p. 1]\n\n**Probing Question for You:**\n- How does this concept connect with your main research goal?\n- What would happen if we changed the underlying premise described in the document?\n\n*Try answering below to test your understanding!*",
+      "citations": [
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lec..."
+        },
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format inges..."
+        },
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4. Secure, scalable access: Protect notebooks with JW..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping..."
+        }
+      ],
+      "socraticMode": true
+    },
+    {
+      "id": "chat-1787249999087",
+      "timestamp": "2026-08-20T18:19:59.087Z",
+      "notebookId": "nb-1",
+      "sender": "user",
+      "text": "How does the RAG retrieval pipeline calculate citations?"
+    },
+    {
+      "id": "chat-1787249999089",
+      "timestamp": "2026-08-20T18:19:59.089Z",
+      "notebookId": "nb-1",
+      "sender": "ai",
+      "text": "### 💡 Socratic Tutor Reflection\n\nBased on **Smart_Research_Assistant_Project_Overview.pdf**, let's analyze this step by step.\n\nHere is a key passage to consider:\n> \"Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lecture notes, research papers — and interact with it...\" [Smart_Research_Assistant_Project_Overview.pdf, p. 1]\n\n**Probing Question for You:**\n- How does this concept connect with your main research goal?\n- What would happen if we changed the underlying premise described in the document?\n\n*Try answering below to test your understanding!*",
+      "citations": [
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lec..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping..."
+        },
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format inges..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "gainst stored chunk vectors using cosine similarity search. Top-K relevant contexts are fetched.\n4. Prompt Augmentation & Citation Indexing: The LLM s..."
+        }
+      ],
+      "socraticMode": true
+    },
+    {
+      "id": "chat-1787250000731",
+      "timestamp": "2026-08-20T18:20:00.731Z",
+      "notebookId": "nb-1",
+      "sender": "user",
+      "text": "What are the key technical objectives and methodology?"
+    },
+    {
+      "id": "chat-1787250000733",
+      "timestamp": "2026-08-20T18:20:00.733Z",
+      "notebookId": "nb-1",
+      "sender": "ai",
+      "text": "### 💡 Socratic Tutor Reflection\n\nBased on **Smart_Research_Assistant_Project_Overview.pdf**, let's analyze this step by step.\n\nHere is a key passage to consider:\n> \"s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format ingestion: Let users upload and organize study material...\" [Smart_Research_Assistant_Project_Overview.pdf, p. 1]\n\n**Probing Question for You:**\n- How does this concept connect with your main research goal?\n- What would happen if we changed the underlying premise described in the document?\n\n*Try answering below to test your understanding!*",
+      "citations": [
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format inges..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "gainst stored chunk vectors using cosine similarity search. Top-K relevant contexts are fetched.\n4. Prompt Augmentation & Citation Indexing: The LLM s..."
+        },
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4. Secure, scalable access: Protect notebooks with JW..."
+        }
+      ],
+      "socraticMode": true
+    },
+    {
+      "id": "chat-1787250001742",
+      "timestamp": "2026-08-20T18:20:01.742Z",
+      "notebookId": "nb-1",
+      "sender": "user",
+      "text": "Summarize the core concepts in the active documents."
+    },
+    {
+      "id": "chat-1787250001745",
+      "timestamp": "2026-08-20T18:20:01.745Z",
+      "notebookId": "nb-1",
+      "sender": "ai",
+      "text": "### 💡 Socratic Tutor Reflection\n\nBased on **Smart_Research_Assistant_Project_Overview.pdf**, let's analyze this step by step.\n\nHere is a key passage to consider:\n> \"Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lecture notes, research papers — and interact with it...\" [Smart_Research_Assistant_Project_Overview.pdf, p. 1]\n\n**Probing Question for You:**\n- How does this concept connect with your main research goal?\n- What would happen if we changed the underlying premise described in the document?\n\n*Try answering below to test your understanding!*",
+      "citations": [
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lec..."
+        },
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format inges..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "gainst stored chunk vectors using cosine similarity search. Top-K relevant contexts are fetched.\n4. Prompt Augmentation & Citation Indexing: The LLM s..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping..."
+        }
+      ],
+      "socraticMode": true
+    },
+    {
+      "id": "chat-1787250003445",
+      "timestamp": "2026-08-20T18:20:03.445Z",
+      "notebookId": "nb-1",
+      "sender": "user",
+      "text": "Summarize the core concepts in the active documents."
+    },
+    {
+      "id": "chat-1787250003447",
+      "timestamp": "2026-08-20T18:20:03.447Z",
+      "notebookId": "nb-1",
+      "sender": "ai",
+      "text": "### 💡 Socratic Tutor Reflection\n\nBased on **Smart_Research_Assistant_Project_Overview.pdf**, let's analyze this step by step.\n\nHere is a key passage to consider:\n> \"Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lecture notes, research papers — and interact with it...\" [Smart_Research_Assistant_Project_Overview.pdf, p. 1]\n\n**Probing Question for You:**\n- How does this concept connect with your main research goal?\n- What would happen if we changed the underlying premise described in the document?\n\n*Try answering below to test your understanding!*",
+      "citations": [
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lec..."
+        },
+        {
+          "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+          "pageNumber": 1,
+          "excerpt": "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format inges..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "gainst stored chunk vectors using cosine similarity search. Top-K relevant contexts are fetched.\n4. Prompt Augmentation & Citation Indexing: The LLM s..."
+        },
+        {
+          "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+          "pageNumber": 1,
+          "excerpt": "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping..."
+        }
+      ],
+      "socraticMode": true
+    },
+    {
+      "id": "chat-1787250212737",
+      "timestamp": "2026-08-20T18:23:32.737Z",
+      "notebookId": "nb-1",
+      "sender": "user",
+      "text": "summerize what written in it"
+    },
+    {
+      "id": "chat-1787250212744",
+      "timestamp": "2026-08-20T18:23:32.744Z",
+      "notebookId": "nb-1",
+      "sender": "ai",
+      "text": "### 🎯 Grounded Answer\n\nIn response to **\"summerize what written in it\"**, the source materials highlight the following key findings:\n\n**1. Smart Research & Study Assistant(ppt).pdf (Page 1):**\nAbhishek Kumar(2300330130006)\n                         \n\nAGENDA\nWhat\tWe'll\tCover\n01\nIntroduction\nAbout the project and the problem it solves\n02\nObjective\nWhat the assistant is designed to achieve\n03\nKey Skills\nThe technologies and techniques behind it\n04\nRoles & Respo [Smart Research & Study Assistant(ppt).pdf, p. 1]\n\n**2. Smart Research & Study Assistant(ppt).pdf (Page 1):**\ntant is designed to achieve\n03\nKey Skills\nThe technologies and techniques behind it\n04\nRoles & Responsibilities\nHow the team divided the work\n05\nConclusion\nWhat we built and what's next\n02\n\nI N T R O D U C T I O N\nAbout\tthe\tProject\nSmart Research & Study Assistant is an AI-powered study companion\ninspired by Google's NotebookLM. [Smart Research & Study Assistant(ppt).pdf, p. 1]\n\n**3. Smart Research & Study Assistant(ppt).pdf (Page 2):**\nources\n2\nRetrieve\nRAG finds the relevant passages\n3\nConverse\nChat, quiz & review with citations\n03\n\nO B J E C T I V E\nWhat\tthe\tAssistant\tAims\tto\tDeliver\n1\nMulti-format ingestion\nLet users upload and organize study material — PDFs, notes\nand documents — into notebooks. [Smart Research & Study Assistant(ppt).pdf, p. 2]\n\n---\n*Source Backed*: All facts above are extracted directly from your active notebook documents.",
+      "citations": [
+        {
+          "docTitle": "Smart Research & Study Assistant(ppt).pdf",
+          "pageNumber": 1,
+          "excerpt": "3. Krishna Murari Mishra(2300330130034)\n                                                                                            4. Abhishek Kumar(..."
+        },
+        {
+          "docTitle": "Smart Research & Study Assistant(ppt).pdf",
+          "pageNumber": 1,
+          "excerpt": "tant is designed to achieve\n03\nKey Skills\nThe technologies and techniques behind it\n04\nRoles & Responsibilities\nHow the team divided the work\n05\nConcl..."
+        },
+        {
+          "docTitle": "Smart Research & Study Assistant(ppt).pdf",
+          "pageNumber": 2,
+          "excerpt": "ources\n2\nRetrieve\nRAG finds the relevant passages\n3\nConverse\nChat, quiz & review with citations\n03\n\nO B J E C T I V E\nWhat\tthe\tAssistant\tAims\tto\tDeliv..."
+        },
+        {
+          "docTitle": "Smart Research & Study Assistant(ppt).pdf",
+          "pageNumber": 1,
+          "excerpt": "IT DEPARTMENT\nINTERNSHIP PRESENTATION\nON\nSmart Research & Study Assistant\n                                                                       PRESE..."
+        }
+      ],
+      "socraticMode": false
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "qz-1787249814074",
+      "notebookId": "nb-1",
+      "createdAt": "2026-08-20T18:16:54.074Z",
+      "questions": [
+        {
+          "id": "q-1",
+          "question": "Based on Smart_Research_Assistant_Project_Overview.pdf: Which of the following best describes \"Smart Research & Study Assistant is an A...\"?",
+          "options": [
+            "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM",
+            "An alternative theory proposed in earlier research literature",
+            "A peripheral concept not directly related to the core topic",
+            "A contradictory finding disproved in recent experiments"
+          ],
+          "correctAnswer": 0,
+          "explanation": "As stated in Smart_Research_Assistant_Project_Overview.pdf: \"Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM.\"",
+          "difficulty": "Medium"
+        },
+        {
+          "id": "q-2",
+          "question": "Based on Smart_Research_Assistant_Project_Overview.pdf: Which of the following best describes \"s instead of generic ones — turning stat...\"?",
+          "options": [
+            "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1",
+            "An alternative theory proposed in earlier research literature",
+            "A peripheral concept not directly related to the core topic",
+            "A contradictory finding disproved in recent experiments"
+          ],
+          "correctAnswer": 0,
+          "explanation": "As stated in Smart_Research_Assistant_Project_Overview.pdf: \"s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1.\"",
+          "difficulty": "Hard"
+        },
+        {
+          "id": "q-3",
+          "question": "Based on Smart_Research_Assistant_Project_Overview.pdf: Which of the following best describes \"ning tools: Turn content into AI chat, a...\"?",
+          "options": [
+            "ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4",
+            "An alternative theory proposed in earlier research literature",
+            "A peripheral concept not directly related to the core topic",
+            "A contradictory finding disproved in recent experiments"
+          ],
+          "correctAnswer": 0,
+          "explanation": "As stated in Smart_Research_Assistant_Project_Overview.pdf: \"ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4.\"",
+          "difficulty": "Medium"
+        },
+        {
+          "id": "q-4",
+          "question": "Based on RAG_Pipeline_Technical_Architecture.txt: Which of the following best describes \"Retrieval-Augmented Generation (RAG) Pip...\"?",
+          "options": [
+            "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1",
+            "An alternative theory proposed in earlier research literature",
+            "A peripheral concept not directly related to the core topic",
+            "A contradictory finding disproved in recent experiments"
+          ],
+          "correctAnswer": 0,
+          "explanation": "As stated in RAG_Pipeline_Technical_Architecture.txt: \"Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1.\"",
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "id": "qz-1787249814067",
+      "notebookId": "nb-1",
+      "createdAt": "2026-08-20T18:16:54.067Z",
+      "questions": [
+        {
+          "id": "q-1",
+          "question": "Based on Smart_Research_Assistant_Project_Overview.pdf: Which of the following best describes \"Smart Research & Study Assistant is an A...\"?",
+          "options": [
+            "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM",
+            "An alternative theory proposed in earlier research literature",
+            "A peripheral concept not directly related to the core topic",
+            "A contradictory finding disproved in recent experiments"
+          ],
+          "correctAnswer": 0,
+          "explanation": "As stated in Smart_Research_Assistant_Project_Overview.pdf: \"Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM.\"",
+          "difficulty": "Medium"
+        },
+        {
+          "id": "q-2",
+          "question": "Based on Smart_Research_Assistant_Project_Overview.pdf: Which of the following best describes \"s instead of generic ones — turning stat...\"?",
+          "options": [
+            "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1",
+            "An alternative theory proposed in earlier research literature",
+            "A peripheral concept not directly related to the core topic",
+            "A contradictory finding disproved in recent experiments"
+          ],
+          "correctAnswer": 0,
+          "explanation": "As stated in Smart_Research_Assistant_Project_Overview.pdf: \"s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1.\"",
+          "difficulty": "Hard"
+        },
+        {
+          "id": "q-3",
+          "question": "Based on Smart_Research_Assistant_Project_Overview.pdf: Which of the following best describes \"ning tools: Turn content into AI chat, a...\"?",
+          "options": [
+            "ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4",
+            "An alternative theory proposed in earlier research literature",
+            "A peripheral concept not directly related to the core topic",
+            "A contradictory finding disproved in recent experiments"
+          ],
+          "correctAnswer": 0,
+          "explanation": "As stated in Smart_Research_Assistant_Project_Overview.pdf: \"ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4.\"",
+          "difficulty": "Medium"
+        },
+        {
+          "id": "q-4",
+          "question": "Based on RAG_Pipeline_Technical_Architecture.txt: Which of the following best describes \"Retrieval-Augmented Generation (RAG) Pip...\"?",
+          "options": [
+            "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1",
+            "An alternative theory proposed in earlier research literature",
+            "A peripheral concept not directly related to the core topic",
+            "A contradictory finding disproved in recent experiments"
+          ],
+          "correctAnswer": 0,
+          "explanation": "As stated in RAG_Pipeline_Technical_Architecture.txt: \"Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1.\"",
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc-1787249874665-0",
+      "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+      "front": "What is the key takeaway regarding: Smart Research & Study Assistant is an AI-powered ...?",
+      "back": "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lecture notes, research papers — and interact with it conversationally instead of searching through pages manually",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.665Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874666-1",
+      "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+      "front": "What is the key takeaway regarding: s instead of generic ones — turning static documen...?",
+      "back": "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format ingestion: Let users upload and organize study material (PDFs, notes, documents) into notebooks.\n2",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.666Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874666-2",
+      "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+      "front": "What is the key takeaway regarding: ning tools: Turn content into AI chat, auto-genera...?",
+      "back": "ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4. Secure, scalable access: Protect notebooks with JWT and OAuth, backed by a production-ready stack.\n5",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.666Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874666-3",
+      "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+      "front": "What is the key takeaway regarding: Retrieval-Augmented Generation (RAG) Pipeline Arch...?",
+      "back": "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping chunks of 500 characters with 100 character overlap.\n2",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.666Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874666-4",
+      "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+      "front": "What is the key takeaway regarding: gainst stored chunk vectors using cosine similarit...?",
+      "back": "gainst stored chunk vectors using cosine similarity search. Top-K relevant contexts are fetched.\n4",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.666Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874669-0",
+      "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+      "front": "What is the key takeaway regarding: Smart Research & Study Assistant is an AI-powered ...?",
+      "back": "Smart Research & Study Assistant is an AI-powered study companion inspired by Google's NotebookLM. Learners upload their own material — textbooks, lecture notes, research papers — and interact with it conversationally instead of searching through pages manually",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.669Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874669-1",
+      "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+      "front": "What is the key takeaway regarding: s instead of generic ones — turning static documen...?",
+      "back": "s instead of generic ones — turning static documents into an interactive, personal knowledge base.\n\nObjectives and Key Features:\n1. Multi-format ingestion: Let users upload and organize study material (PDFs, notes, documents) into notebooks.\n2",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.669Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874669-2",
+      "docTitle": "Smart_Research_Assistant_Project_Overview.pdf",
+      "front": "What is the key takeaway regarding: ning tools: Turn content into AI chat, auto-genera...?",
+      "back": "ning tools: Turn content into AI chat, auto-generated quizzes, and spaced-repetition flashcards.\n4. Secure, scalable access: Protect notebooks with JWT and OAuth, backed by a production-ready stack.\n5",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.669Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874669-3",
+      "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+      "front": "What is the key takeaway regarding: Retrieval-Augmented Generation (RAG) Pipeline Arch...?",
+      "back": "Retrieval-Augmented Generation (RAG) Pipeline Architecture:\n1. Ingestion Phase: Documents are ingested, text is extracted and divided into overlapping chunks of 500 characters with 100 character overlap.\n2",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.669Z",
+      "notebookId": "nb-1"
+    },
+    {
+      "id": "fc-1787249874669-4",
+      "docTitle": "RAG_Pipeline_Technical_Architecture.txt",
+      "front": "What is the key takeaway regarding: gainst stored chunk vectors using cosine similarit...?",
+      "back": "gainst stored chunk vectors using cosine similarity search. Top-K relevant contexts are fetched.\n4",
+      "category": "Core Concepts",
+      "interval": 1,
+      "repetition": 0,
+      "easeFactor": 2.5,
+      "dueDate": "2026-08-20T18:17:54.669Z",
+      "notebookId": "nb-1"
+    }
+  ],
+  "studyRooms": [
+    {
+      "id": "room-101",
+      "code": "STUDY-7892",
+      "name": "AI & RAG Exam Prep Room",
+      "host": "Aishanya Tripathi",
+      "participants": [
+        "Aishanya Tripathi",
+        "Himanshu Gupta",
+        "Krishna Murari Mishra",
+        "Abhishek Kumar"
+      ],
+      "activeNotebookId": "nb-1"
+    }
+  ]
+}

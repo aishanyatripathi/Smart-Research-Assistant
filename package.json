@@ -1,0 +1,27 @@
+{
+  "name": "smart-research-study-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered study companion inspired by NotebookLM with RAG pipeline and MERN stack",
+  "main": "server/index.js",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "notebooklm",
+    "rag",
+    "mern",
+    "ai-study-assistant",
+    "flashcards",
+    "quiz-generator",
+    "socratic-tutor"
+  ],
+  "author": "Smart Study Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
